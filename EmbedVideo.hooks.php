@@ -535,7 +535,7 @@ class EmbedVideoHooks
 
         $service = trim($service);
         $id = trim($id);
-        $alignment = trim($alignment);
+        $alignment = trim($alignment ?? '');
         $description = trim($description ?? '');
         $dimensions = trim($dimensions ?? '');
         $urlArgs = trim($urlArgs ?? '');
